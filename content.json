@@ -1,0 +1,137 @@
+{
+  "homeBlocks": [
+    {
+      "title": "Welcome to the Adventure",
+      "content": "Join Mario and Sonic in an epic crossover adventure! Experience the thrill of two gaming legends coming together in this exciting platformer.",
+      "icon": "🌟"
+    },
+    {
+      "title": "Power-Ups Guide",
+      "content": "Master the art of power-ups! From Super Stars to Speed Shoes, learn how to use each power-up to maximize your gameplay.",
+      "icon": "⭐"
+    },
+    {
+      "title": "Player Reviews",
+      "content": "See what other players are saying about their Mario and Sonic adventures. Join our growing community of enthusiasts!",
+      "icon": "👥"
+    },
+    {
+      "title": "Spin Dash Secrets",
+      "content": "Unlock the secrets of Sonic's signature move and discover how to combine it with Mario's abilities for maximum effect.",
+      "icon": "💨"
+    },
+    {
+      "title": "Traps and Dangers",
+      "content": "Navigate through challenging obstacles and avoid dangerous traps. Learn the patterns and master your timing!",
+      "icon": "⚠️"
+    },
+    {
+      "title": "Level-Up Challenges",
+      "content": "Push your skills to the limit with our special challenges. Earn achievements and compete with players worldwide!",
+      "icon": "🏆"
+    }
+  ],
+  "additionalSections": [
+    {
+      "id": "gameplay-mechanics",
+      "title": "Gameplay Mechanics",
+      "subtitle": "Master the Controls",
+      "content": "Discover the unique gameplay mechanics that blend Mario's acrobatic moves with Sonic's speed abilities. Learn advanced techniques and combinations to overcome challenging levels.",
+      "image": "img/img-1.png",
+      "features": [
+        "Precise Platform Controls",
+        "Speed Boost Mechanics",
+        "Special Move Combinations",
+        "Character-Specific Abilities"
+      ]
+    },
+    {
+      "id": "world-exploration",
+      "title": "World Exploration",
+      "subtitle": "Discover Amazing Worlds",
+      "content": "Explore beautifully crafted worlds that combine elements from both Mario and Sonic universes. Find hidden secrets, collect special items, and unlock new areas.",
+      "image": "img/img-2.png",
+      "features": [
+        "Multiple Unique Zones",
+        "Hidden Collectibles",
+        "Secret Passages",
+        "Interactive Environment"
+      ]
+    },
+    {
+      "id": "multiplayer-features",
+      "title": "Multiplayer Features",
+      "subtitle": "Play Together",
+      "content": "Team up with friends or compete against them in various multiplayer modes. Experience the thrill of cooperative gameplay or test your skills in competitive challenges.",
+      "image": "img/img-3.png",
+      "features": [
+        "Co-op Campaign",
+        "Versus Mode",
+        "Team Challenges",
+        "Online Leaderboards"
+      ]
+    },
+    {
+      "id": "achievements-rewards",
+      "title": "Achievements & Rewards",
+      "subtitle": "Earn & Collect",
+      "content": "Complete special challenges and earn unique rewards. Unlock new characters, costumes, and abilities as you progress through the game.",
+      "image": "img/img-4.png",
+      "features": [
+        "Special Achievements",
+        "Unlockable Content",
+        "Bonus Levels",
+        "Exclusive Items"
+      ]
+    }
+  ],
+  "featuredNews": [
+    {
+      "title": "New Power-Ups Revealed for Mario & Sonic",
+      "excerpt": "Discover the latest power-ups that will revolutionize gameplay in the upcoming adventure!",
+      "image": "img/img-5.png",
+      "category": "Game Updates",
+      "date": "2024-03-15"
+    },
+    {
+      "title": "Multiplayer Mode Gets Major Enhancement",
+      "excerpt": "Experience the new multiplayer features that bring friends closer together in epic battles!",
+      "image": "img/img-6.png",
+      "category": "Features",
+      "date": "2024-03-10"
+    },
+    {
+      "title": "Special Event: Spring Championship",
+      "excerpt": "Join the biggest tournament of the season with exclusive rewards and challenges!",
+      "image": "img/img-1.png",
+      "category": "Events",
+      "date": "2024-03-05"
+    }
+  ],
+  "news": [
+    {
+      "title": "New Speed Running Record!",
+      "date": "2024-03-20",
+      "content": "Player 'SonicMario123' sets a new world record in completing all levels!",
+      "image": "img/img-2.png"
+    },
+    {
+      "title": "Special Event: Double Rings Weekend",
+      "date": "2024-03-15",
+      "content": "Join us this weekend for double rings and coins in all levels!",
+      "image": "img/img-3.png"
+    },
+    {
+      "title": "Community Challenge Results",
+      "date": "2024-03-10",
+      "content": "See who won our latest community challenge and their amazing scores!",
+      "image": "img/img-4.png"
+    }
+  ],
+  "contact": {
+    "address": "1 Mario Circuit, Green Hill Zone, NSW 2000, Australia",
+    "phone": "+61 2 6409 3419",
+    "email": "contact@domain.com",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.8570976095266!2d151.20544851521653!3d-33.86882828065787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae401e8b983f%3A0x5017d681632ccc0!2sSydney%20NSW%202000%2C%20Australia!5e0!3m2!1sen!2sus!4v1647834756247!5m2!1sen!2sus"
+  }
+}
