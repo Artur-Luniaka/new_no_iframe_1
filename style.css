@@ -242,7 +242,7 @@ h6 {
     backdrop-filter: none;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 18px;
     width: auto;
     background: none;
   }
@@ -257,7 +257,6 @@ h6 {
 
   .nav-link {
     font-size: 1rem;
-    padding: var(--spacing-xs) var(--spacing-sm);
     color: var(--text-muted);
     text-decoration: none;
     transition: all 0.3s ease;
@@ -1141,5 +1140,107 @@ textarea.form-input {
 @media (min-width: 992px) {
   .map-section iframe {
     height: 500px;
+  }
+}
+
+/* How to Play Section */
+.how-to-play {
+  padding: var(--spacing-xl) 0;
+  background: var(--surface-color);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  margin: var(--spacing-xl) 0;
+}
+
+.how-to-play-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.how-to-play-title {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-sm);
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.how-to-play-subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+.how-to-play-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.how-to-play-step {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-speed) ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.how-to-play-step::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent-gradient);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-speed) ease;
+}
+
+.how-to-play-step:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.how-to-play-step:hover::before {
+  transform: scaleX(1);
+}
+
+.how-to-play-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  display: inline-block;
+  transition: transform var(--transition-speed) ease;
+}
+
+.how-to-play-step:hover .how-to-play-icon {
+  transform: scale(1.2);
+}
+
+.how-to-play-step-title {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.how-to-play-step-content {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .how-to-play-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .how-to-play-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

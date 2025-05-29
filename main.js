@@ -37,6 +37,34 @@ async function loadContent() {
   }
 }
 
+// Render How to Play section
+function renderHowToPlay(data) {
+  if (!data.howToPlay) return;
+
+  const section = document.getElementById("how-to-play");
+  if (!section) return;
+
+  // Update title and subtitle
+  section.querySelector(".how-to-play-title").textContent =
+    data.howToPlay.title;
+  section.querySelector(".how-to-play-subtitle").textContent =
+    data.howToPlay.subtitle;
+
+  // Update steps
+  const grid = section.querySelector(".how-to-play-grid");
+  grid.innerHTML = data.howToPlay.steps
+    .map(
+      (step) => `
+    <div class="how-to-play-step fade-in">
+      <div class="how-to-play-icon">${step.icon}</div>
+      <h3 class="how-to-play-step-title">${step.title}</h3>
+      <p class="how-to-play-step-content">${step.content}</p>
+    </div>
+  `
+    )
+    .join("");
+}
+
 // Initialize Components
 document.addEventListener("DOMContentLoaded", async () => {
   // Load header and footer
@@ -82,13 +110,16 @@ document.addEventListener("DOMContentLoaded", async () => {
       const blockElement = document.createElement("div");
       blockElement.className = "block-item fade-in";
       blockElement.innerHTML = `
-                <div class="block-icon">${block.icon}</div>
-                <h3>${block.title}</h3>
-                <p>${block.content}</p>
-            `;
+        <div class="block-icon">${block.icon}</div>
+        <h3>${block.title}</h3>
+        <p>${block.content}</p>
+      `;
       homeBlocks.appendChild(blockElement);
     });
   }
+
+  // Render How to Play section
+  renderHowToPlay(content);
 
   // Load Additional Sections
   if (content.additionalSections) {

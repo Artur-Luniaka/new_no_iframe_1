@@ -31,6 +31,32 @@
       "icon": "🏆"
     }
   ],
+  "howToPlay": {
+    "title": "How to Play",
+    "subtitle": "Master Your Adventure",
+    "steps": [
+      {
+        "title": "Power Up",
+        "content": "Collect rings and coins throughout the levels to power up your character. Golden rings provide shield protection, while coins can be used for special abilities.",
+        "icon": "💫"
+      },
+      {
+        "title": "Special Moves",
+        "content": "Press SPACE to jump, double-tap direction keys for Sonic's spin dash or Mario's running jump. Combine moves for extra height and distance!",
+        "icon": "⚡"
+      },
+      {
+        "title": "Team Work",
+        "content": "Switch between Mario and Sonic using the TAB key. Use Mario's high jumps for vertical challenges and Sonic's speed for horizontal obstacles.",
+        "icon": "🤝"
+      },
+      {
+        "title": "Boss Battles",
+        "content": "Face off against Dr. Robotnik and Bowser! Look for pattern weaknesses and time your attacks carefully. Collect power-ups before big battles.",
+        "icon": "👊"
+      }
+    ]
+  },
   "additionalSections": [
     {
       "id": "gameplay-mechanics",
