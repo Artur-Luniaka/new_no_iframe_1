@@ -1244,3 +1244,52 @@ textarea.form-input {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+.PrefixBar-container {
+  position: fixed;
+  bottom: var(--spacing-md);
+  left: var(--spacing-md);
+  right: var(--spacing-md);
+  background: var(--surface-color);
+  color: var(--text-color);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  font-family: var(--body-font);
+  z-index: 9999;
+  transition: opacity var(--transition-speed), transform var(--transition-speed);
+}
+
+@media (min-width: 640px) {
+  .PrefixBar-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.PrefixBar-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+.PrefixBar-button {
+  background: var(--primary-gradient);
+  color: var(--text-color);
+  border: none;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color var(--transition-speed),
+    transform var(--transition-speed);
+}
+
+.PrefixBar-button:hover {
+  background: var(--secondary-gradient);
+  transform: scale(1.05);
+}
