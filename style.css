@@ -349,13 +349,14 @@ h6 {
 
 /* Hero Section - Mobile First */
 .hero {
-  min-height: 400px;
+  min-height: 300px;
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
   padding: var(--spacing-xl) var(--spacing-md);
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .hero::before {
@@ -648,7 +649,7 @@ textarea.form-input {
   }
 
   .hero {
-    min-height: 600px;
+    min-height: 400px;
     margin-bottom: 80px;
   }
 
